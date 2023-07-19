@@ -44,7 +44,7 @@ const ImageGrid = () => {
           <img className="h-auto max-w-full rounded-lg" src="https://media.discordapp.net/attachments/961586736109076530/1131130087165657118/IMG-20230513-WA0048.jpg?width=766&height=581" alt="" />
         </div>
         <div>
-          <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="" />
+          <img className="h-auto max-w-full rounded-lg" src="" alt="" />
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <nav className="bg-black  sticky top-0 dark:bg-gray-900">
+    <nav className="sticky top-0" style={{ backgroundColor: "rgba(0, 16, 17, 0.75)" }}>
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link href="/" className="flex items-center">
           {/* <img src="/logo.svg" className="h-8 mr-3" alt="Logo" /> */}
@@ -39,7 +39,7 @@ const NavBar = () => {
             <li>
               <Link
                 href="/projects"
-                className="block py-2 pl-3 pr-4 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:hover:bg-gray-700 dark:hover:text-white dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 hover:bg-3AAFB9 md:hover:bg-transparent md:border-0 md:p-0 dark:hover:bg-64E9EE"
               >
                 Projects
               </Link>
@@ -47,7 +47,7 @@ const NavBar = () => {
             <li>
               <Link
                 href="/gallery"
-                className="block py-2 pl-3 pr-4 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:hover:bg-gray-700 dark:hover:text-white dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 hover:bg-3AAFB9 md:hover:bg-transparent md:border-0 md:p-0 dark:hover:bg-64E9EE"
               >
                 Gallery
               </Link>
@@ -55,7 +55,7 @@ const NavBar = () => {
             <li>
               <Link
                 href="/blog"
-                className="block py-2 pl-3 pr-4 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:hover:bg-gray-700 dark:hover:text-white dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 hover:bg-3AAFB9 md:hover:bg-transparent md:border-0 md:p-0 dark:hover:bg-64E9EE"
               >
                 Blog
               </Link>
@@ -63,7 +63,7 @@ const NavBar = () => {
             <li>
               <Link
                 href="/herpetology"
-                className="block py-2 pl-3 pr-4 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:hover:bg-gray-700 dark:hover:text-white dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 hover:bg-3AAFB9 md:hover:bg-transparent md:border-0 md:p-0 dark:hover:bg-64E9EE"
               >
                 Herpetology
               </Link>
