@@ -35,6 +35,7 @@ function Projects() {
             imageSrc={project.imageSrc}
             title={project.title}
             desc={project.desc}
+            link={project.link}
           />
         ))}
       </div>
