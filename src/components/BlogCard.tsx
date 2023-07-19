@@ -1,4 +1,4 @@
-function BlogCard({ title, desc, link }) {
+function BlogCard({ title, desc, link }: { title: string, desc: string, link: string }) {
     return (
       <a
         href={link}

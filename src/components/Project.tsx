@@ -1,4 +1,4 @@
-function Project({ imageSrc, title, desc, link }) {
+function Project({ imageSrc, title, desc, link }:{imageSrc:string, title:string, desc:string, link:string}) {
   return (
     <a
       href={link}
